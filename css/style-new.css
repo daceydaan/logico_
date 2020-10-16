@@ -1,0 +1,399 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+@font-face {
+
+font-family: p_nova;
+
+src: url(../fonts/ProximaNova-Regular.otf);
+
+font-weight:normal;
+
+}
+
+@font-face {
+
+font-family: p_nova_lightitalic;
+
+src: url(../fonts/ProximaNova-LightItalic.otf);
+
+font-weight:normal;
+
+}
+
+
+
+@font-face {
+
+font-family: r_bold;
+
+src: url(../fonts/Raleway-Bold.otf);
+
+font-weight:normal;
+
+}
+
+ProximaNova-LightItalic
+
+.main_menu li {
+
+  display: inline-block;
+
+}
+
+.main_menu {
+  display: block;
+}
+
+@media (min-width: 768px){
+  .main_menu {
+  padding-top: 35px;
+}
+}
+
+.main_menu li {
+
+	display:inline-table;
+
+	padding:0 13px;
+
+}
+.main_menu li.active > a {
+
+	color: #81a83f !important;
+
+}
+
+	.logo {
+
+  width: 100% !important;
+
+}
+
+.logo img {
+
+  max-width: 100%;
+
+}
+
+.main_menu a {
+
+  color: #fff;
+
+  font-family: 'Roboto', sans-serif;
+
+  font-size: 15px;
+
+  line-height: 18px !important;
+
+  padding-bottom: 9px !important;
+
+  padding-left: 0 !important;
+
+  padding-right: 0 !important;
+
+  text-transform: uppercase;;
+
+  display:inline-table;
+
+  font-weight: 500 !important;
+
+}
+
+.main_menu a:hover {
+
+	text-decoration:none;
+
+	background:none !important;
+
+}
+
+.main_menu ul li:last-child{
+
+	padding-right:0px !important
+
+	}
+
+
+.dropdown-menu {
+
+  left: 16px;
+
+  padding: 12px 0 !important;
+
+}
+
+.tagline {
+
+  color: #bab9b9;
+
+  font-family: p_nova_lightitalic;
+
+  font-size: 15px;
+
+  margin-bottom: 0;
+
+  margin-top: 18px;
+
+  padding-bottom: 0;
+
+  text-align: right;
+
+}
+
+	.nav.navbar-nav {
+
+  float: right;
+
+}
+
+header {
+
+  margin-bottom: 40px !important;
+
+  padding: 5px 0;
+
+  background:#222222 !important
+
+}
+
+.dropdown-menu > li a {
+
+  background: none !important;
+
+}
+
+.dropdown-menu {
+
+  font-family: Arial,Helvetica,sans-serif;
+
+  font-size: 16px;
+
+  min-width: 239px !important;
+
+}
+
+.dropdown-menu li:last-child a {
+
+  color: #fff;
+
+  font-size: 15px;
+
+  line-height: 18px !important;
+
+  padding-bottom: 9px !important;
+
+  padding-left: 0 !important;
+
+  padding-right: 0 !important;
+
+  text-transform: inherit;
+
+  border: 0px;
+
+}
+
+.footer_links a {
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  text-decoration: none !important;
+  display: inline-table;
+  font-weight: 300 !important;
+}
+
+.address_footer li a {
+
+	letter-spacing:1px
+
+	}
+
+/*.footer_links li {
+
+	border-bottom:1px solid #FFF
+
+}*/
+
+.footer_links li:last-child{
+
+	border:0px;
+
+	}
+
+#footer_layer_one .col-md-3{
+
+  padding: 0 32px !important;
+
+}
+
+
+
+.address_footer li span {
+
+  color: #faa519;
+
+  display: inline-block;
+
+  width: 82px !important;
+
+}
+.footer-logo, .social_icons_footer {
+	margin: 5px 0 0 !important;
+	text-align: center;
+}
+.footer-logo > a {
+	display: inline-block;
+}
+.social_icons > li {
+
+  padding: 0 4px;
+
+}
+
+.footer_links {
+
+  text-align: left;
+
+}
+
+@media screen and (max-width: 1200px){
+
+.main_menu a {
+
+  font-size: 12px !important;
+
+}
+
+.social_icons img {
+
+  height: 47px;
+
+  width: 47px;
+
+}
+
+.social_icons > li {
+
+ padding:0px; 
+
+}
+
+.address_footer li span {
+
+  width: 68px !important;
+
+}
+
+	}
+
+	@media screen and (max-width: 991px){
+
+	.logo {
+
+	 text-align: center;
+
+	}
+
+	.nav.navbar-nav {
+
+	float: none;
+
+	}
+
+	.navbar-collapse.collapse {
+
+	text-align: center;
+
+	}
+
+	.tagline{ text-align: center}
+
+.main_menu li {
+
+  float: none;
+
+}
+
+
+
+	}
+
+	
+
+@media screen and (max-width: 767px){	
+
+	.nav.navbar-nav {
+
+  float: left;
+
+  width: 100%;
+
+}
+
+.main_menu a {
+
+  font-size: 15px !important;
+
+}
+
+.main_menu li {
+
+  float: none;
+
+  display: block !important;
+
+}
+
+.navbar-collapse.collapse {
+
+	text-align: left;
+
+	}
+
+	.social_icons img {
+
+  height: auto;
+
+  width: auto;
+
+}
+
+.social_icons > li {
+
+ padding:0 4px; 
+
+}
+
+.tagline > span {
+
+  display: block;
+
+}
+
+}
+
+.icon-bar {
+
+  background: #fff;
+
+}
+
+.cd-main-content.is-fixed .cd-tab-filter-wrapper {
+
+  top: 0px !important;
+
+ 
+
+}
+
+
+
+.cd-gallery img{
+
+border: none !important;
+
+padding:0 !important;	
+
+box-shadow: 0px 0px 8px #ccc;
+
+}
